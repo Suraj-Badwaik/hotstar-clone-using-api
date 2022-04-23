@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #170e34;
+}
+#Mainbox{
+    display: flex;
+    align-items: center;
+    background-color: rgb(6, 6, 48);
+    height: 85px;
+    position: sticky;
+}
+
+
+#main{
+    display: flex;
+    width: 90%;
+     margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoDiv{
+    display: flex;
+    align-items: center;
+}
+#nav ul{
+    display: flex;
+}
+
+#nav ul li{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+    margin-left: 18%;
+    color: white;
+}
+#logo{
+    width: 170px;
+    height: 80%;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#inputDiv{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+#input{ 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#query{
+    width: 50%;
+    padding: 8px 12px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgb(13, 13, 43);
+    font-size: 18px;
+    color: white;
+}
+
+#btn1{
+    padding: 5px 14px;
+    background-color: rgb(41, 145, 236);
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    color: white;
+    margin-left: -105px;
+}
+
+#btn2{
+    /* padding: 5px 0px; */
+    background-color: rgb(13, 13, 43);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(161, 158, 158);
+    margin-left: 10px;
+
+}
+
+/* ======================================================= */
+#movies{
+    border: 2px solid black;
+    /* display: none; */
+    height: 400px;
+    margin: 0% 20% 0% 56%;
+    width: 24%;
+    overflow-y: scroll;
+    background-color: #07011a;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: -1;
+}
+#Popularmovies{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    z-index: -1;
+    width: 100%;
+    height: 530px;
+    background-color: #07011a;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#holder{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 80%;
+    /* border: 2px solid white; */
+    padding: 3%;
+    border-radius: 20px;
+    box-shadow: rgba(239, 239, 243, 0.25) 0px 20px 60px -20px, rgba(246, 245, 245, 0.3) 0px 10px 60px 10px, rgba(220, 227, 233, 0.35) 0px -2px 6px 0px inset;
+}
+.posterDiv{
+    width: 35%;
+    height: 100%;
+    border: 5px solid red;
+}
+
+.posterDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.titleBox{
+    width: 55%;
+    height: 100%;
+}
+
+.titleBox button{
+    width: 35%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #07011a;
+   border: none;
+   color: white;
+   font-size: 22px;
+   margin-top: 10%;
+}
+.titleBox button img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10%;
+    filter: invert();
+}
+
+.clickedTitle{
+    font-size: 40px;
+    color: #ff00ef;;
+    font-weight: bold;
+}
+
+.clickedRelease{
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.clickedRating{
+    font-size: 15px;
+    line-height: 35px;
+}
+
+#mainDiv{
+    display: flex;
+    height: 26%;
+    margin: 10px;
+    background-color: rgb(29, 29, 66);
+    border-radius: 8px;   
+}
+
+.imgDiv{
+    width: 40%;
+    height: 100%;
+}
+
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+}
+.titleDiv{
+    color: white;
+    margin:1% 0% 0% 4%;
+}
+
+
+/* ============================================ */
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #39393c; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(144, 140, 154); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(8, 9, 55); 
+  }
+
+  /* =============================================================== */
+  /* =============================================================== */
+
+  #slideshow{
+      width: 70%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+      margin: auto;
+      margin-top: 3%;
+      border-radius: 20px;
+  }

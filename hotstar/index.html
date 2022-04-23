@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+Hotstar</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="Mainbox">
+        <div id="main">
+            <div id="logoDiv">
+                <div id="logo">
+                    <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg"
+                        alt="">
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li>Tv</li>
+                        <li>Movies</li>
+                        <li>Sports</li>
+                        <li>Kids</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="inputDiv">
+                <div id="input">
+                    <input placeholder="Search" type="text" name="" id="query" oninput="debounce(main,100)">
+                </div>
+                <div id="btns">
+                    <button id="btn1">SUBSCRIBE</button>
+                    <button id="btn2">LOGIN</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="movies"></div>
+    <div id="Popularmovies">
+        <img id="slideshow" src="https://deadline.com/wp-content/uploads/2021/05/Eternals_Teaser_1-Sheet_v10_Lg-e1622056944569.jpg" alt="">
+    </div>
+
+</body>
+
+</html>
+
+
+<script src="index.js"></script>
